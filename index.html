@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./logo.png" alt="logo" class="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-50">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#allTopics">All Topics</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Linear Algebra</a></li>
+                          <li><a class="dropdown-item" href="#">Calculus</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">➕Add course</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Write</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex w-50">
+                      <input class="form-control me-2" type="search" placeholder="Ask your question..." aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              
+        </section>
+
+
+        <section class="container featuredQuestion">
+            <div class="card text-center">
+                <div class="card-header">
+                  Top question
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"> Why The Ramanujan Summation: 1 + 2 + 3 + ⋯ + ∞ = -1/12?</h5>
+                  <img src="./banner1.png" alt=""><br>
+                  <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                  <a href="#" class="btn btn-warning" id="seeAnswer">See Answer</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Asked 2 days ago
+                </div>
+              </div>
+        </section>
+
+        <section class="container questionsList"> 
+
+            <div class="questionItem">
+                <div>
+                    <span class="badge bg-success">13 answers</span>
+                </div>
+                <div>
+                    <p>If the cost of a bat and a baseball combined is $1.10 and the bat costs 41.00 more than the ball, how much is the ball?</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-warning">Write your answer</button>
+                </div>
+            </div>
+            <div class="questionItem">
+                <div>
+                    <span class="badge bg-success">13 answers</span>
+                </div>
+                <div>
+                    <p>If the cost of a bat and a baseball combined is $1.10 and the bat costs 41.00 more than the ball, how much is the ball?</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-warning">Write your answer</button>
+                </div>
+            </div>
+            <div class="questionItem">
+                <div>
+                    <span class="badge bg-success">13 answers</span>
+                </div>
+                <div>
+                    <p>If the cost of a bat and a baseball combined is $1.10 and the bat costs 41.00 more than the ball, how much is the ball?</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-warning">Write your answer</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="container coursesList" id="allTopics">
+            <ul class="course">
+                <li>
+                    Calculus
+                    <ul>
+                        <li><a href="#" class="gotoLecture" data-videoid="N8HOn3K49Pg">Differentiaton</a></li>
+                        <li><a href="#" class="gotoLecture" data-videoid="D25W4UYynK8">Integration</a></li>
+                        <li>Multivariable</li>
+                        <li>Limit</li>
+                        <li>Function</li>
+                    </ul>
+                </li>
+                
+                <li>
+                    Linear Algebra
+                    <ul>
+                        <li>Line</li>
+                        <li>Graph</li>
+                        <li>co-ordinate</li>
+                        <li>Limit</li>
+                        <li>Function</li>
+                    </ul>
+                </li>
+                <li>
+                  Real Analysis
+                  <ul>
+                      <li><a href="#" class="gotoLecture" data-videoid="N8HOn3K49Pg">Differentiaton</a></li>
+                      <li><a href="#" class="gotoLecture" data-videoid="D25W4UYynK8">Integration</a></li>
+                      <li>Multivariable</li>
+                      <li>Limit</li>
+                      <li>Function</li>
+                  </ul>
+              </li>
+              
+              <li>
+                  Trigonometry
+                  <ul>
+                      <li>Line</li>
+                      <li>Graph</li>
+                      <li>co-ordinate</li>
+                      <li>Limit</li>
+                      <li>Function</li>
+                  </ul>
+              </li>
+
+            </ul>
+        </section>
+
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./action.js"></script>
+</body>
+</html>
+
+

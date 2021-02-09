@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./logo.png" alt="logo" class="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-50">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">All questions</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Linear Algebra</a></li>
+                          <li><a class="dropdown-item" href="#">Calculus</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">➕Add course</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Write</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex w-50">
+                      <input class="form-control me-2" type="search" placeholder="Ask your question..." aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              
+        </section>
+
+
+
+        <section class="lecture">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <iframe id="videoPlayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; modestbranding" allowfullscreen ></iframe>
+                        <h2 id="videoTitle">And here goes the title!</h2>
+                        <div class="reactions">
+                            
+                            <button type="button" class="btn btn-outline-danger reaction active"><span class="badge bg-warning text-dark">8,204</span> Thanks😍</button>
+                            <button type="button" class="btn btn-outline-success reaction"><span class="badge bg-warning text-dark">1,456</span> Average👍</button>
+                            <button type="button" class="btn btn-outline-dark reaction"><span class="badge bg-warning text-dark">0002</span> Bad👎</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="tags">
+                            <h3>Tags:</h3>
+                            <span class="badge bg-warning text-dark">Calculus</span>
+                            <span class="badge bg-warning text-dark">differentiation</span>
+                            <span class="badge bg-warning text-dark">integration</span>
+                        </div>
+                        <div class="attachedFiles">
+                            <h5>Documents that can help for this topic:</h5>
+                            <div class="attachedFile">
+                                <button type="button" class="btn btn-outline-success">
+                                    <a href="./calculus assignment.pdf" class="file">Note.pdf</a>
+                                </button>
+                            </div>
+                            <div class="attachedFile">
+                                <button type="button" class="btn btn-outline-success">
+                                    <a href="./calculus assignment.pdf" class="file">calculus assignment.pdf</a>
+                                </button>
+                            </div>
+                            <div class="attachedFile">
+                            <button type="button" class="btn btn-info">
+                                <span>➕Add Your file</span>
+                            </button>
+                            </div>
+                            
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <section class="note">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 ">
+                  <div class="writeNote">
+                    <i class="far fa-clipboard"></i>
+                    <input type="text" name="answer" id="noteInput" placeholder="Add your note on this topic">
+                  </div>
+                  
+                </div>
+              </div>  
+            </div>
+        </section>
+
+        <section class="container previousAnswers">
+            <div class="row">
+                <div class="col-lg-8">
+
+
+                    <div class=" previousAnswer">
+                        <div class="card-header">
+                          <i class="fas fa-user-secret"></i>
+                          Shahin said:
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae cum sed tempore commodi numquam quasi alias, ut cupiditate voluptatem aperiam quam</p>
+                          <img src="./banner1.png" alt="">
+                          
+                          <div class="reactions">
+                              <button type="button" class="btn btn-outline-danger reaction">Thanks😍</button>
+                              <button type="button" class="btn btn-outline-success reaction">Average👍</button>
+                              <button type="button" class="btn btn-outline-dark reaction active">Bad👎</button>
+                          </div>
+                        </div>
+                        <div class="card-footer text-muted">
+                          <i class="fas fa-history"></i>
+                          5 hours ago
+                        </div>
+                      </div>
+                      <div class=" previousAnswer">
+                        <div class="card-header">
+                          <i class="fas fa-user"></i>
+                          Shamim said:
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Adding some more informetions to the lecture: </h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae cum sed tempore commodi numquam quasi alias, ut cupiditate voluptatem aperiam quam.</p>
+                          
+                          <div class="reactions">
+                              <button type="button" class="btn btn-outline-danger reaction">Thanks😍</button>
+                              <button type="button" class="btn btn-outline-success reaction ">Average👍</button>
+                              <button type="button" class="btn btn-outline-dark reaction active">Bad👎</button>
+                          </div>
+                        </div>
+                        <div class="card-footer text-muted">
+                          <i class="fas fa-history"></i>
+                          2 days ago
+                        </div>
+                      </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="test container">
+          <div class="row">
+            <div class="col-md-8" style="border: 2px solid red; border-radius: 10px; padding: 1rem;">
+              <h3>💪Let's see how much you understood:</h3>
+              <div class="testQuestion">
+                <h5>What is <i>lim (sin<sup>-1</sup>(x) + ln(x<sup>2</sup>))?</i></h5>
+                  <ul>
+                    <li>sin(x)</li>
+                    <li>cos(x)</li>
+                    <li>ln(x)</li>
+                    <li>Doesn't exist</li>
+                  </ul>
+                  <div class="d-flex justify-content-evenly">
+                    <button class="showTestAnswerBtn btn btn-outline-warning">Show Answer</button>
+                    <div class="testAnswer btn btn-success">
+                      ✔ Option B
+                    </div>
+                  </div>
+              </div>
+
+              <button class="btn btn-info mt-3">+ Add your own question!</button>
+
+            </div>
+          </div>
+
+        </section>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./questionPageAction.js"></script>
+</body>
+</html>
